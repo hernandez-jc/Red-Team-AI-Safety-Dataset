@@ -1,5 +1,18 @@
+# Adversarial AI Training Sample (100 of 1000 rows – SPAN)
+
+This repository includes `adversarial_ai_training_sample_100_of_1000rows_SPAN.csv`, a **100‑row Spanish‑only sample** drawn from a larger synthetic dataset of 1,000 adversarial‑AI incidents.
+
+Each row describes a realistic attack pattern (such as evasion, data poisoning, targeted poisoning, membership inference, backdoor poisoning, or misaligned outputs) affecting AI systems like fraud detectors, hiring‑moderation tools, chatbots, or medical‑report generators. The examples are mapped to structured NISTAML‑style attack classes and a red‑team‑oriented schema (vulnerability category, harm type, and risk severity), making this sample ideal for:
+
+- Training and aligning AI red‑teamers and annotators in Spanish‑speaking environments.
+- Illustrating how you apply structured evaluation frameworks and benchmarks to adversarial‑AI testing.
+- Supporting bilingual safety research and documentation, while demonstrating native‑level technical writing in both English and Spanish.
+
+------------------------
+
+
 # Red-Team-AI-Safety-Dataset
-# 🔴 Red-Team AI Safety Dataset (Sintético / Synthetic)
+### 🔴 Red-Team AI Safety Dataset 
 **Bilingual (English/Español) • 1000+ rows • Production-Ready**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -22,7 +35,6 @@
 **Purpose:** Train annotators, test AI safety guardrails, benchmark model vulnerabilities.
 
 **Propósito:** Dataset **100% sintético** para **investigación en seguridad de IA, red-teaming y lingüística computacional**. Demuestra experiencia práctica en 5 categorías críticas de ML Safety.
-
 
 ## Research Applications
 - **AI Safety Testing**: Measure model refusal rates across categories
@@ -55,8 +67,6 @@ jailbreaks = df[df['category'] == 'jailbreak']['prompt']
 **Spanish version available** upon request. Dataset generation script supports culturally-adapted adversarial prompts for multilingual model testing.
 
 ## Citation
-
-
 
 ## Safety Categories Covered
 
@@ -146,32 +156,6 @@ print(df[df['category']=='jailbreak']['prompt'].head())  # Sample attacks
 jailbreak: 28% (DAN attacks, roleplay)
 misuse: 35% (drugs, weapons instructions)
 bias: 12% (stereotype exploitation)
-
-
-
----
-
-## 🔬 **Academic Citations / Citas Académicas**
-
----
-
-## 🇪🇸 **Versión en Español Disponible**
-**Puedo generar dataset bilingüe (Eng/Esp)** con prompts adversariales adaptados culturalmente para testing de modelos multilingües.
-
----
-
-## ⭐ **Contribute / Contribuye**
-- **Expand taxonomy** → Add domain-specific risks
-- **Bilingual prompts** → Spanish/English parallel attacks  
-- **Multi-turn chains** → Realistic conversation escalation
-- **Model results** → Share pass/fail rates by category
-
-**¡Dataset listo para publicación académica y benchmarking industrial!** 🎓⚗️
-
----
-
-## License
-MIT License - Free for academic and safety research use.
 
 ---
 
