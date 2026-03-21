@@ -5,7 +5,7 @@ This repository includes `adversarial_ai_training_sample_100_of_1000rows_SPAN.cs
 Each row describes a realistic attack pattern (such as evasion, data poisoning, targeted poisoning, membership inference, backdoor poisoning, or misaligned outputs) affecting AI systems like fraud detectors, hiring‑moderation tools, chatbots, or medical‑report generators. The examples are mapped to structured NISTAML‑style attack classes and a red‑team‑oriented schema (vulnerability category, harm type, and risk severity), making this sample ideal for:
 
 - Training and aligning AI red‑teamers and annotators in Spanish‑speaking environments.
-- Illustrating how you apply structured evaluation frameworks and benchmarks to adversarial‑AI testing.
+- Illustrating how I, the author applies structured evaluation frameworks and benchmarks to adversarial‑AI testing.
 - Supporting bilingual safety research and documentation, while demonstrating native‑level technical writing in both English and Spanish.
 
 ------------------------
